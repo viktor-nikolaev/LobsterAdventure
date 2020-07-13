@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LobsterAdventure.AppServices\LobsterAdventure.AppServices.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="StackExchange.Redis" Version="2.1.58" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  lobsteradventure.webapp:
+    image: ${DOCKER_REGISTRY-}lobsteradventurewebapp
+    build:
+      context: .
+      dockerfile: LobsterAdventure.WebApp/Dockerfile
